@@ -24,7 +24,7 @@ def take_a_number(array, name)
     array << name
     puts "Welcome, #{name}. You are number #{array.length} in line."
   else
-      array << person
-      puts "Welcome, #{person}. You are number #{array.length} in line."
+      array << name
+      puts "Welcome, #{name}. You are number #{array.length} in line."
   end
 end
